@@ -143,49 +143,6 @@
         </td>
     </tr>
     
-    <repeater>
-        <layout label='Feedback Section'>
-            <tr>
-                <td bgcolor="#E8EDEE" align="center" style="padding: 0px 15px 13px;">
-                    <!--[if (gte mso 9)|(IE)]>
-                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="570">
-                    <tr>
-                    <td align="center" valign="top" width="570">
-                    <![endif]-->
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 570px;" class="responsive-table">
-
-                        <tr><td width="100%" style="height: 1px; line-height: 0; font-size: 1px;" bgcolor="#798691">&nbsp;</td></tr>
-                        <tr><td width="100%" style="height: 15px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
-                        <tr>
-                            <td>
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                        <td>
-                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                                <tr>
-                                                    <td valign="top" style="padding-left: 0;" class="padding-align">
-                                                        <img src="assets/6-icon.png" width="21" height="20" border="0" style="display: block;">
-                                                    </td>
-                                                    <td style="padding: 0 0 0 5px; font-size: 14px; line-height: 16px; font-family: Frutiger, Arial, sans-serif; color: #425563; text-align: center;" class="padding-align-left">
-                                                        <singleline label='Feedback Text'>This email is part of a new service - your feedback will help us to improve it.</singleline>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    <!--[if (gte mso 9)|(IE)]>
-                    </td>
-                    </tr>
-                    </table>
-                    <![endif]-->
-                </td>
-            </tr>
-        </layout>
-    </repeater>
 
     <tr>
         <td bgcolor="#E8EDEE" align="center">
@@ -234,13 +191,13 @@
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <repeater>
 
-                                            <layout label='Heading'>
+                                            <layout label='Email Heading'>
                                                 <tr>
                                                     <td align="left" style="padding: 10px 0 5px 0; font-size: 36px; font-weight: bold; line-height: 40px; font-family: Frutiger, Arial, sans-serif; color: #231F20;" class="padding-sides">
-                                                        <singleline label='Heading'>Newsletter Name Goes here.</singleline>
+                                                        <singleline label='Heading'>Input Email Topic Title.</singleline>
                                                     </td>
                                                 </tr>
-                                                <tr><td width="100%" style="height: 20px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
+                                                <tr><td width="100%" style="height: 10px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
                                                 <tr><td width="100%" style="height: 1px; line-height: 0; font-size: 1px;" bgcolor="#798691"><singleline label="&nbsp;">&nbsp;</singleline></td></tr>
                                                 <tr><td width="100%" style="height: 20px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
                                             </layout>
@@ -248,15 +205,15 @@
                                             <layout label='Sub Heading'>
                                                 <tr>
                                                     <td align="left" style="padding: 10px 0 5px 0; font-size: 36px; font-weight: bold; line-height: 40px; font-family: Frutiger, Arial, sans-serif; color: #231F20;" class="padding-sides">
-                                                        <singleline label='Heading'>Newsletter Name Goes here.</singleline>
+                                                        <singleline label='Heading'>Input Email Topic Title.</singleline>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td align="left" style="padding: 5px 0; font-size: 27px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #425563;" class="padding-sides">
-                                                        <singleline label='Sub Heading'>Sub Header Name Goes here.</singleline>
+                                                        <singleline label='Sub Heading'>Input Email Sub Title.</singleline>
                                                     </td>
                                                 </tr>
-                                                <tr><td width="100%" style="height: 20px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
+                                                <tr><td width="100%" style="height: 10px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
                                                 <tr><td width="100%" style="height: 1px; line-height: 0; font-size: 1px;" bgcolor="#798691"><singleline label="&nbsp;">&nbsp;</singleline></td></tr>
                                                 <tr><td width="100%" style="height: 20px; line-height: 0; font-size: 1px;">&nbsp;</td></tr>
                                             </layout>
@@ -271,7 +228,7 @@
 
                                             <layout label='Text Heading'>
                                                 <tr>
-                                                    <td align="left" style="padding: 20px 0px 20px 0px; font-size: 18px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;" class="padding-sides">
+                                                    <td align="left" style="padding: 20px 0px 20px 0px; font-size: 19px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;" class="padding-sides">
                                                         <singleline label='Text Heading'>Text Heading Goes Here.</singleline>
                                                     </td>
                                                 </tr>
@@ -285,13 +242,6 @@
                                                 </tr>
                                             </layout>
                                             
-                                            <layout label='Text Signoff'>
-                                                <tr>
-                                                    <td align="left" style="padding: 5px 0; font-size: 16px; line-height: 22px; font-family: Frutiger, Arial, sans-serif; color: #231F20;" class="padding-sides">
-                                                        <multiline label='Text Body'><p><br>Best Wishes, <br> <br> <em>The Leadership Academy</em> </p></multiline>
-                                                    </td>
-                                                </tr>
-                                            </layout>
                                             
                                             <layout label='Primary Button'>
                                                 <tr>
@@ -301,8 +251,8 @@
                                                                 <td align="center" style="padding: 15px 0;" class="padding-sides">
                                                                     <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                         <tr>
-                                                                            <td align="center" bgcolor="#330072" style="color: #ffffff; padding: 10px 0;">
-                                                                                <a href="<singleline label='Button Link'>Button Link</singleline>" target="_blank" style="font-size: 16px; font-family: Frutiger, Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; width: 570px;" class="wrapper">
+                                                                            <td align="center" bgcolor="#330072" style="color: #ffffff; padding: 10px 0 8px 0;">
+                                                                                <a href="<singleline label='Button Link'>Button Link</singleline>" target="_blank" style="font-size: 18px; font-family: Frutiger, Arial, sans-serif; color: #ffffff; text-decoration: none; font-weight: bold; display: block; width: 570px;" class="wrapper">
                                                                                     <singleline label='Button Text'>Call To Action Primary Button</singleline>
                                                                                 </a>
                                                                             </td>
@@ -313,6 +263,51 @@
                                                         </table>
                                                     </td>
                                                 </tr>
+                                            </layout>
+                                            
+                                             <layout label='Secondary Button'>
+                                                               <!-- BUTTON -->
+                                                                                    <tr>
+                                                                                        <td align="center" style="padding: 0px 0;">
+                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                <tr>
+                                                                                                    <td align="center" style="padding: 15px 0;" class="padding-sides">
+                                                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                                            <tr>
+                                                                                                                <td align="center" bgcolor="#330072" style="color: #ffffff; padding: 10px 0 8px 0;">
+                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 18px; font-family: Frutiger, Arial, sans-serif; color: #ffffff; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
+                                                                                                                        <singleline label='Box Button Text'>Call To Action Primary Button</singleline>
+                                                                                                                    </a>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    <!-- BUTTON 2 -->
+                                                                                    <tr>
+                                                                                        <td align="center" style="padding-top: 8px;">
+                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                <tr>
+                                                                                                    <td align="center" style="padding: 1px;" bgcolor="#E8EDEE" class="padding-sides">
+                                                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                                            <tr>
+                                                                                                                <td align="center" bgcolor="#ffffff" style="color: #ffffff; padding: 10px 0 8px 0;">
+                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 18px; font-family: Frutiger, Arial, sans-serif; color: #330072; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
+                                                                                                                        <singleline label='Box Button Text'>Call To Action Primary Button</singleline>
+                                                                                                                    </a>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                
                                             </layout>
                                             
                                            
@@ -336,14 +331,14 @@
                                                                                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                                     <!-- TEXT HEADING -->
                                                                                     <tr>
-                                                                                        <td align="left" style="padding: 0 0 0; font-size: 24px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
-                                                                                            <singleline label='Box Heading'>Save the date title goes here</singleline>
+                                                                                        <td align="left" style="padding: 0 0 0; font-size: 19px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
+                                                                                            <singleline label='Box Heading'>Input Date Title</singleline>
                                                                                         </td>
                                                                                     </tr>
 
                                                                                     <!-- TEXT BODY -->
                                                                                     <tr>
-                                                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 16px; line-height: 22px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
+                                                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 14px; line-height: 10px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
                                                                                             <multiline label='Box Body'><p>Title: <strong>00:00  00/00/0000</strong></p></multiline>
                                                                                         </td>
                                                                                     </tr>
@@ -371,14 +366,14 @@
                                                                                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                                     <!-- TEXT HEADING -->
                                                                                     <tr>
-                                                                                        <td align="left" style="padding: 0 0 0; font-size: 24px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
-                                                                                            <singleline label='Box Heading'>Save the date title goes here</singleline>
+                                                                                        <td align="left" style="padding: 0 0 0; font-size: 19px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
+                                                                                            <singleline label='Box Heading'>Input Date Title</singleline>
                                                                                         </td>
                                                                                     </tr>
 
                                                                                     <!-- TEXT BODY -->
                                                                                     <tr>
-                                                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 16px; line-height: 22px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
+                                                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 14px; line-height: 10px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
                                                                                             <multiline label='Box Body'><p>Title: <strong>00:00  00/00/0000</strong></p></multiline>
                                                                                         </td>
                                                                                     </tr>
@@ -391,9 +386,66 @@
                                                                                                     <td align="center" style="padding: 15px 0 0;">
                                                                                                         <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                                                             <tr>
-                                                                                                                <td align="center" bgcolor="#330072" style="color: #ffffff; padding: 10px 0;">
-                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 16px; font-family: Frutiger, Arial, sans-serif; color: #ffffff; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
-                                                                                                                        <singleline label='Box Button Text'>CLICK HERE</singleline>
+                                                                                                                <td align="center" bgcolor="#330072" style="color: #ffffff; padding: 10px 0 8px 0;">
+                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 18px; font-family: Frutiger, Arial, sans-serif; color: #ffffff; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
+                                                                                                                        <singleline label='Box Button Text'>Call To Action Primary Button</singleline>
+                                                                                                                    </a>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </layout>
+                                            
+                                            <layout label='Bordered Box Secondary Button'>
+                                                <tr>
+                                                    <td style="padding: 20px 0;" class="padding-sides">
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td align="left" style="padding: 5px;" bgcolor="#330072">
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                                                        <tr>
+                                                                            <td align="center" style="padding: 10px;">
+                                                                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                    <!-- TEXT HEADING -->
+                                                                                    <tr>
+                                                                                        <td align="left" style="padding: 0 0 0; font-size: 19px; font-weight: bold; line-height: 20px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
+                                                                                            <singleline label='Box Heading'>Input Date Title</singleline>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    <!-- TEXT BODY -->
+                                                                                    <tr>
+                                                                                        <td align="left" style="padding: 10px 0 0 0; font-size: 14px; line-height: 10px; font-family: Frutiger, Arial, sans-serif; color: #231F20;">
+                                                                                            <multiline label='Box Body'><p>Title: <strong>00:00  00/00/0000</strong></p></multiline>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                    <!-- BUTTON -->
+                                                                                    <tr>
+                                                                                        <td align="center">
+                                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                                <tr>
+                                                                                                    <td align="center" style="padding: 15px 0 0;">
+                                                                                                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                                                                            <tr>
+                                                                                                                <td align="center" bgcolor="#330072" style="color: #ffffff; padding: 10px 0 8px 0;">
+                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 18px; font-family: Frutiger, Arial, sans-serif; color: #ffffff; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
+                                                                                                                        <singleline label='Box Button Text'>Call To Action Primary Button</singleline>
                                                                                                                     </a>
                                                                                                                 </td>
                                                                                                             </tr>
@@ -406,15 +458,15 @@
 
                                                                                     <!-- BUTTON 2 -->
                                                                                     <tr>
-                                                                                        <td align="center" style="padding-top: 10px;">
+                                                                                        <td align="center" style="padding-top: 8px;">
                                                                                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                                                 <tr>
                                                                                                     <td align="center" style="padding: 1px;" bgcolor="#E8EDEE">
                                                                                                         <table border="0" cellspacing="0" cellpadding="0" width="100%">
                                                                                                             <tr>
-                                                                                                                <td align="center" bgcolor="#ffffff" style="color: #ffffff; padding: 10px 0;">
-                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 16px; font-family: Frutiger, Arial, sans-serif; color: #330072; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
-                                                                                                                        <singleline label='Box Button Text'>CLICK HERE</singleline>
+                                                                                                                <td align="center" bgcolor="#ffffff" style="color: #ffffff; padding: 10px 0 8px 0;">
+                                                                                                                    <a href="<singleline label='Box Button Link'>Button Link</singleline>" target="_blank" style="font-size: 18px; font-family: Frutiger, Arial, sans-serif; color: #330072; text-decoration: none; display: block; width: 540px; font-weight: bold;" class="wrapper">
+                                                                                                                        <singleline label='Box Button Text'>Call To Action Primary Button</singleline>
                                                                                                                     </a>
                                                                                                                 </td>
                                                                                                             </tr>
@@ -435,6 +487,15 @@
                                                 </tr>
                                             </layout>
                                             
+                                             <layout label='Text Signoff'>
+                                                <tr>
+                                                    <td align="left" style="padding: 5px 0; font-size: 16px; line-height: 22px; font-family: Frutiger, Arial, sans-serif; color: #231F20;" class="padding-sides">
+                                                        <multiline label='Text Body'><p><br>Best Wishes, <br> <br> <em>The Leadership Academy</em> </p></multiline>
+                                                    </td>
+                                                </tr>
+                                            </layout>
+                                            
+                                         
                                             
                                             
 
